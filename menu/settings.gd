@@ -71,7 +71,8 @@ func apply_graphics_settings(window: Window, environment: Environment, scene_roo
 	window.scaling_3d_mode = Settings.config_file.get_value("video", "scale_filter")
 
 	window.use_taa = Settings.config_file.get_value("rendering", "taa")
-	window.msaa_3d = Settings.config_file.get_value("rendering", "msaa")
+	#window.msaa_3d = Settings.config_file.get_value("rendering", "msaa")
+	window.msaa_3d = Viewport.MSAA_4X
 	window.screen_space_aa = Viewport.SCREEN_SPACE_AA_FXAA if Settings.config_file.get_value("rendering", "fxaa") else Viewport.SCREEN_SPACE_AA_DISABLED
 
 	if not Settings.config_file.get_value("rendering", "shadow_mapping"):
