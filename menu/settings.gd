@@ -17,22 +17,22 @@ const CONFIG_FILE_PATH = "user://settings.ini"
 const DEFAULTS = {
 	video = {
 		display_mode = Window.MODE_EXCLUSIVE_FULLSCREEN,
-		vsync = DisplayServer.VSYNC_ENABLED,
+		vsync = DisplayServer.VSYNC_DISABLED,
 		max_fps = 0,
 		resolution_scale = 1.0,
-		scale_filter = Viewport.SCALING_3D_MODE_FSR2,
+		scale_filter = Viewport.SCALING_3D_MODE_BILINEAR,
 	},
 	rendering = {
 		taa = false,
-		msaa = Viewport.MSAA_DISABLED,
+		msaa = Viewport.MSAA_4X,
 		fxaa = false,
 		shadow_mapping = true,
-		gi_type = GIType.VOXEL_GI,
+		gi_type = GIType.LIGHTMAP_GI,
 		gi_quality = GIQuality.LOW,
-		ssao_quality = RenderingServer.ENV_SSAO_QUALITY_MEDIUM,
+		ssao_quality = -1, # Disabled
 		ssil_quality = -1,  # Disabled
-		bloom = true,
-		volumetric_fog = true,
+		bloom = false,
+		volumetric_fog = false,
 	},
 }
 
@@ -71,8 +71,7 @@ func apply_graphics_settings(window: Window, environment: Environment, scene_roo
 	window.scaling_3d_mode = Settings.config_file.get_value("video", "scale_filter")
 
 	window.use_taa = Settings.config_file.get_value("rendering", "taa")
-	#window.msaa_3d = Settings.config_file.get_value("rendering", "msaa")
-	window.msaa_3d = Viewport.MSAA_4X
+	window.msaa_3d = Settings.config_file.get_value("rendering", "msaa")
 	window.screen_space_aa = Viewport.SCREEN_SPACE_AA_FXAA if Settings.config_file.get_value("rendering", "fxaa") else Viewport.SCREEN_SPACE_AA_DISABLED
 
 	if not Settings.config_file.get_value("rendering", "shadow_mapping"):

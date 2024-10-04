@@ -14,10 +14,6 @@ signal replace_main_scene # Useless, but needed as there is no clean way to chec
 @onready var spawn_node = $SpawnedNodes
 
 func _ready():
-	var xr_interface = XRServer.find_interface("OpenXR")
-	if xr_interface and xr_interface.initialize():
-		get_viewport().use_xr = true
-
 	Settings.apply_graphics_settings(get_window(), world_environment.environment, self)
 
 	if Settings.config_file.get_value("rendering", "gi_type") == Settings.GIType.SDFGI:
@@ -29,8 +25,8 @@ func _ready():
 
 	if multiplayer.is_server():
 		# Server will spawn the red robots
-		#for c in robot_spawn_points.get_children():
-		#	spawn_robot(c)
+		for c in robot_spawn_points.get_children():
+			spawn_robot(c)
 
 		# Then spawn already connected players at random location
 		randomize()

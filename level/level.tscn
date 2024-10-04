@@ -265,14 +265,3 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.1415, 0, 31.955)
 size = Vector3(140, 40, 140)
 resolution = 4
 texture = ExtResource("11_mt3nw")
-
-[node name="XROrigin3D" type="XROrigin3D" parent="."]
-transform = Transform3D(-0.575826, 0, -0.817572, 0, 1, 0, 0.817572, 0, -0.575826, 64.8183, -1.0765, 78.7639)
-
-[node name="XRCamera3D" type="XRCamera3D" parent="XROrigin3D"]
-
-[node name="LeftController" type="XRController3D" parent="XROrigin3D"]
-tracker = &"left_hand"
-
-[node name="RightController" type="XRController3D" parent="XROrigin3D"]
-tracker = &"right_hand"

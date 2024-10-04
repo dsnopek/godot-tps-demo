@@ -345,6 +345,7 @@ text = "PLAY"
 alignment = 0
 
 [node name="PlayOnline" type="Button" parent="UI/Main"]
+visible = false
 layout_mode = 0
 offset_left = 100.0
 offset_top = 490.0
