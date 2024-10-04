@@ -10820,7 +10820,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.82358, 2.06607)
 visible = false
 light_color = Color(0.992157, 0.713726, 0.713726, 1)
 light_energy = 0.0
-shadow_enabled = true
 omni_range = 8.68993
 omni_shadow_mode = 0
 

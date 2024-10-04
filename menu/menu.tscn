@@ -288,7 +288,6 @@ surface_material_override/0 = SubResource("StandardMaterial3D_froyn")
 
 [node name="SpotLight3D" type="SpotLight3D" parent="."]
 transform = Transform3D(0.967027, 0, 0.254675, -0.225291, 0.466312, 0.855452, -0.118758, -0.88462, 0.450936, 0.557445, 2.31204, 0.556668)
-shadow_enabled = true
 
 [node name="SpotLightBounce" type="SpotLight3D" parent="."]
 transform = Transform3D(-0.967027, -1.26906e-07, -0.254675, 0.225291, 0.466312, -0.855451, 0.118758, -0.88462, -0.450936, -0.206581, -0.720626, 0.088479)

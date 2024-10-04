@@ -119,7 +119,6 @@ light_energy = 12.0
 light_volumetric_fog_energy = 10000.0
 light_projector = ExtResource("4_47076")
 light_bake_mode = 0
-shadow_enabled = true
 shadow_blur = 0.5
 spot_range = 50.0
 spot_angle = 50.0

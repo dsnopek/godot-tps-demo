@@ -39,7 +39,8 @@ func explode():
 	# Only enable shadows for the explosion, as the moving light
 	# is very small and doesn't noticeably benefit from shadow mapping.
 	if Settings.config_file.get_value("rendering", "shadow_mapping"):
-		omni_light.shadow_enabled = true
+		#omni_light.shadow_enabled = true
+		pass
 
 
 func destroy():
