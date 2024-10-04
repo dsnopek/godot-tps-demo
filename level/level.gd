@@ -2,6 +2,7 @@ extends Node3D
 
 const RedRobot = preload("res://enemies/red_robot/red_robot.tscn")
 const PlayerScene = preload("res://player/player.tscn")
+const PlayerXRScene = preload("res://xr/player.tscn")
 var lightmap_gi = null
 
 signal quit
@@ -111,11 +112,20 @@ func del_player(id: int):
 
 
 func add_player(id: int, spawn_point: Marker3D = null):
+	var xr_interface = XRServer.find_interface("OpenXR")
+
 	if spawn_point == null:
 		spawn_point = player_spawn_points.get_child(randi() % player_spawn_points.get_child_count())
-	var player = PlayerScene.instantiate()
+
+	var player
+
+	if id == 1 and xr_interface and xr_interface.is_initialized():
+		player = PlayerXRScene.instantiate()
+	else:
+		player = PlayerScene.instantiate()
+		player.player_id = id
+
 	player.name = str(id)
-	player.player_id = id
 	player.transform = spawn_point.transform
 	spawn_node.add_child(player)
 

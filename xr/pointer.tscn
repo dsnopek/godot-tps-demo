@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://q8aq0asxlw6"]
+
+[ext_resource type="Script" path="res://xr/pointer.gd" id="1_nqutr"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_lld1w"]
+size = Vector3(0.01, 0.01, 5)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r14nv"]
+shading_mode = 0
+
+[node name="Pointer" type="Node3D"]
+script = ExtResource("1_nqutr")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.5)
+mesh = SubResource("BoxMesh_lld1w")
+surface_material_override/0 = SubResource("StandardMaterial3D_r14nv")
