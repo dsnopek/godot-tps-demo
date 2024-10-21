@@ -36,7 +36,7 @@ import/use_multiple_threads=false
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/godot-xr-tools/plugin.cfg")
+enabled=PackedStringArray("res://addons/3d_mesh_deduplicator/plugin.cfg", "res://addons/godot-xr-tools/plugin.cfg")
 
 [filesystem]
 
