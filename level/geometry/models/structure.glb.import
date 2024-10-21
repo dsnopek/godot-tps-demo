@@ -164,7 +164,7 @@ _subresources={
 }
 }
 3d_mesh_deduplicator/deduplicate_meshes=true
-3d_mesh_deduplicator/convert_to_multimesh=true
+3d_mesh_deduplicator/convert_to_multimesh=false
 3d_mesh_deduplicator/maximum_multimesh_distance=0.0
 gltf/naming_version=0
 gltf/embedded_image_handling=1
