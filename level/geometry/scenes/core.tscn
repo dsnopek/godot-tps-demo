@@ -1,4 +1,4 @@
-[gd_scene load_steps=38 format=3 uid="uid://ddbnmy6um5fjg"]
+[gd_scene load_steps=37 format=3 uid="uid://ddbnmy6um5fjg"]
 
 [ext_resource type="PackedScene" uid="uid://ckpf3t16u47pu" path="res://level/geometry/scenes/collision/radial_colliders.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://babdc0gjbduw" path="res://level/geometry/scenes/collision/stair_pillar.tscn" id="2"]
@@ -13,7 +13,6 @@
 [ext_resource type="Texture2D" uid="uid://ma1pkwpr1tbq" path="res://level/textures/structure/Core/core_laval_spotches.png" id="11"]
 [ext_resource type="ArrayMesh" uid="uid://c3jq2yvvaa8k3" path="res://level/textures/structure/Core/CoreOutLight_Circle001.mesh" id="12"]
 [ext_resource type="Texture2D" uid="uid://drdkjk8qau4mq" path="res://level/textures/structure/Core/core_fire_noise.png" id="13"]
-[ext_resource type="ArrayOccluder3D" uid="uid://cvkveovhx38y7" path="res://level/geometry/scenes/occluder-core.occ" id="14_aswjt"]
 
 [sub_resource type="Shader" id="11"]
 code = "shader_type spatial;
@@ -334,8 +333,5 @@ transform = Transform3D(-0.956305, 0, 0.292371, 0, 1, 0, -0.292371, 0, -0.956305
 
 [node name="StairPillar3" parent="." instance=ExtResource("2")]
 transform = Transform3D(0.224951, 0, -0.97437, 0, 1, 0, 0.97437, 0, 0.224951, 5.62378, 2, 24.3593)
-
-[node name="OccluderInstance3D" type="OccluderInstance3D" parent="."]
-occluder = ExtResource("14_aswjt")
 
 [editable path="CoreModel"]
