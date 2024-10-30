@@ -1,14 +1,12 @@
-[gd_scene load_steps=15 format=3 uid="uid://b51qillnxp84r"]
+[gd_scene load_steps=13 format=3 uid="uid://b51qillnxp84r"]
 
 [ext_resource type="Script" path="res://level/level.gd" id="1"]
-[ext_resource type="PackedScene" uid="uid://bpihm2o3g658" path="res://level/geometry/scenes/props.tscn" id="2"]
 [ext_resource type="VoxelGIData" uid="uid://bw86lhn5p1ovp" path="res://level/geometry/giprobe_data.res" id="5"]
 [ext_resource type="AudioStream" uid="uid://vxxm8xm1fr6y" path="res://level/level_music.ogg" id="8"]
 [ext_resource type="Script" path="res://level/debug.gd" id="9"]
 [ext_resource type="CompressedTexture3D" uid="uid://b2x2pkclq230n" path="res://level/level.GPUParticlesCollisionSDF3D_data.exr" id="11_mt3nw"]
 [ext_resource type="PackedScene" uid="uid://dln4kthc3tvfv" path="res://level/forklift/flying_forklift.tscn" id="12"]
 [ext_resource type="PackedScene" uid="uid://dgvowmn3iop44" path="res://level/geometry/scenes/lights.tscn" id="13"]
-[ext_resource type="PackedScene" uid="uid://ddbnmy6um5fjg" path="res://level/geometry/scenes/core.tscn" id="14"]
 [ext_resource type="PackedScene" uid="uid://bh1lh032pmey2" path="res://level/geometry/scenes/structure.tscn" id="15"]
 [ext_resource type="Environment" uid="uid://cnn46umvf55rs" path="res://level/geometry/environment.tres" id="16"]
 
@@ -51,12 +49,6 @@ transform = Transform3D(0.843905, 0, -0.536493, 0, 1, 0, 0.536493, 0, 0.843905, 
 [node name="Marker3D2" type="Marker3D" parent="RobotSpawnpoints"]
 transform = Transform3D(0.338334, 0, 0.941027, 0, 1, 0, -0.941027, 0, 0.338334, 53.2126, -6.05686, 15.9321)
 
-[node name="Marker3D3" type="Marker3D" parent="RobotSpawnpoints"]
-transform = Transform3D(-0.164432, 0, 0.986389, 0, 1, 0, -0.986389, 0, -0.164432, -2.96096, -11.6923, 20.2343)
-
-[node name="Marker3D4" type="Marker3D" parent="RobotSpawnpoints"]
-transform = Transform3D(-0.164432, 0, 0.986389, 0, 1, 0, -0.986389, 0, -0.164432, -9.15526, -11.6923, -16.9238)
-
 [node name="PlayerSpawnpoints" type="Node3D" parent="."]
 
 [node name="Marker3D1" type="Marker3D" parent="PlayerSpawnpoints"]
@@ -75,11 +67,7 @@ transform = Transform3D(0.576433, 0, 0.817145, 0, 1, 0, -0.817145, 0, 0.576433, 
 _spawnable_scenes = PackedStringArray("res://player/player.tscn", "res://enemies/red_robot/red_robot.tscn", "res://player/bullet/bullet.tscn")
 spawn_path = NodePath("../SpawnedNodes")
 
-[node name="Core" parent="." instance=ExtResource("14")]
-
 [node name="Structure" parent="." instance=ExtResource("15")]
-
-[node name="Props" parent="." instance=ExtResource("2")]
 
 [node name="Lights" parent="." instance=ExtResource("13")]
 visible = false
