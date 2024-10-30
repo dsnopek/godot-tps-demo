@@ -1,7 +1,8 @@
-[gd_scene load_steps=13 format=3 uid="uid://b51qillnxp84r"]
+[gd_scene load_steps=14 format=3 uid="uid://b51qillnxp84r"]
 
 [ext_resource type="Script" path="res://level/level.gd" id="1"]
 [ext_resource type="VoxelGIData" uid="uid://bw86lhn5p1ovp" path="res://level/geometry/giprobe_data.res" id="5"]
+[ext_resource type="PackedScene" uid="uid://dv80agt3i0im3" path="res://level/lightmap_gi.tscn" id="6_65ixi"]
 [ext_resource type="AudioStream" uid="uid://vxxm8xm1fr6y" path="res://level/level_music.ogg" id="8"]
 [ext_resource type="Script" path="res://level/debug.gd" id="9"]
 [ext_resource type="CompressedTexture3D" uid="uid://b2x2pkclq230n" path="res://level/level.GPUParticlesCollisionSDF3D_data.exr" id="11_mt3nw"]
@@ -70,7 +71,6 @@ spawn_path = NodePath("../SpawnedNodes")
 [node name="Structure" parent="." instance=ExtResource("15")]
 
 [node name="Lights" parent="." instance=ExtResource("13")]
-visible = false
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = ExtResource("16")
@@ -80,6 +80,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.09263, 1.28266, 2.88598)
 subdiv = 2
 size = Vector3(227.892, 97.6096, 234.056)
 data = ExtResource("5")
+
+[node name="LightmapGI" parent="." instance=ExtResource("6_65ixi")]
+transform = Transform3D(0.338334, 0, 0.941027, 0, 1, 0, -0.941027, 0, 0.338334, 47.12, -4.7742, 18.8181)
 
 [node name="ReflectionProbes" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0316315, 0.30191, -0.240242)
@@ -220,33 +223,43 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45.6893, -3.98122, 13.8627)
 
 [node name="LightmapProbe23" type="LightmapProbe" parent="LightmapProbes"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.0421, -3.98122, 11.062)
+visible = false
 
 [node name="LightmapProbe24" type="LightmapProbe" parent="LightmapProbes"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.1032, -3.98122, 8.37205)
+visible = false
 
 [node name="LightmapProbe25" type="LightmapProbe" parent="LightmapProbes"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.4103, -3.98122, 6.86614)
+visible = false
 
 [node name="LightmapProbe26" type="LightmapProbe" parent="LightmapProbes"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0878527, -2.106, -0.0146277)
+visible = false
 
 [node name="LightmapProbe27" type="LightmapProbe" parent="LightmapProbes"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.557192, -10.2858, 20.5457)
+visible = false
 
 [node name="LightmapProbe28" type="LightmapProbe" parent="LightmapProbes"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.0311, -10.2858, 15.1947)
+visible = false
 
 [node name="LightmapProbe29" type="LightmapProbe" parent="LightmapProbes"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.4293, -10.2858, -8.03601)
+visible = false
 
 [node name="LightmapProbe30" type="LightmapProbe" parent="LightmapProbes"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.47386, -10.2858, -19.8213)
+visible = false
 
 [node name="LightmapProbe31" type="LightmapProbe" parent="LightmapProbes"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.6666, -10.2858, -15.6046)
+visible = false
 
 [node name="LightmapProbe32" type="LightmapProbe" parent="LightmapProbes"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.3694, -10.2858, 7.23363)
+visible = false
 
 [node name="GPUParticlesCollisionSDF3D" type="GPUParticlesCollisionSDF3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.1415, 0, 31.955)

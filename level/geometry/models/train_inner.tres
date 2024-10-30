@@ -6,3 +6,4 @@ albedo_color = Color(0.10375, 0.125224, 0.213956, 1)
 metallic = 0.5
 roughness = 0.0960784
 texture_filter = 5
+disable_receive_shadows = true

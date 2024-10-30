@@ -82,6 +82,10 @@ func setup_lightmapgi():
 	$ReflectionProbes.show()
 	# If no LightmapGI node, create one
 	if (lightmap_gi == null):
+		lightmap_gi = get_node_or_null('LightmapGI')
+		if lightmap_gi != null:
+			return
+
 		var new_gi = LightmapGI.new()
 		new_gi.light_data = load("res://level/level.lmbake")
 		new_gi.name = "LightmapGI"

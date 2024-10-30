@@ -21,3 +21,4 @@ normal_texture = ExtResource("2")
 ao_enabled = true
 ao_texture = ExtResource("4")
 texture_filter = 5
+disable_receive_shadows = true

@@ -1,6 +1,7 @@
-[gd_resource type="StandardMaterial3D" format=2]
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c82pegf2kawfj"]
 
 [resource]
 resource_name = "cycles_glow_orange"
-albedo_color = Color( 0.639282, 0.251191, 0.0284811, 1 )
+albedo_color = Color(0.639282, 0.251191, 0.0284811, 1)
 roughness = 0.0960784
+disable_receive_shadows = true

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dv80agt3i0im3"]
+
+[ext_resource type="LightmapGIData" uid="uid://dr65h8sfwmrnt" path="res://level/level.lmbake" id="1_oltyh"]
+
+[node name="LightmapGI" type="LightmapGI"]
+transform = Transform3D(0.338334, 0, 0.941027, 0, 1, 0, -0.941027, 0, 0.338334, 53.2126, -6.05686, 15.9321)
+light_data = ExtResource("1_oltyh")

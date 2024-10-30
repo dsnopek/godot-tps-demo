@@ -4,3 +4,4 @@
 resource_name = "tile_steel"
 metallic = 1.0
 texture_filter = 5
+disable_receive_shadows = true
