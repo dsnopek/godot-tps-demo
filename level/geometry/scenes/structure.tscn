@@ -101,6 +101,315 @@ size = Vector3(1.5, 3, 7.4)
 
 [node name="StructureModel" parent="." instance=ExtResource("2")]
 
+[node name="hallreactor_circ4500_ReactorOuterWall_023" parent="StructureModel" index="1"]
+visible = false
+
+[node name="hallreactor_circ4500_ReactorOuterWall_022" parent="StructureModel" index="2"]
+visible = false
+
+[node name="hallreactor_circ4500_ReactorOuterWall_021" parent="StructureModel" index="3"]
+visible = false
+
+[node name="hallreactor_circ4500_ReactorOuterWall_020" parent="StructureModel" index="4"]
+visible = false
+
+[node name="hallreactor_circ4500_ReactorOuterWall_016" parent="StructureModel" index="9"]
+visible = false
+
+[node name="hallreactor_circ4500_ReactorOuterCeiling_005" parent="StructureModel" index="14"]
+visible = false
+
+[node name="hallreactor_circ4500_ReactorOuterCeiling_004" parent="StructureModel" index="15"]
+visible = false
+
+[node name="hallreactor_circ4500_ReactorOuterCeiling_003" parent="StructureModel" index="16"]
+visible = false
+
+[node name="hallreactor_circ4500_ReactorOuterCeiling_002" parent="StructureModel" index="17"]
+visible = false
+
+[node name="hallreactor_circ4500_ReactorOuterWall_005" parent="StructureModel" index="21"]
+visible = false
+
+[node name="hallreactor_circ4500_ReactorOuterWall_004" parent="StructureModel" index="22"]
+visible = false
+
+[node name="hallreactor_circ4500_ReactorOuterWall_003" parent="StructureModel" index="23"]
+visible = false
+
+[node name="hallreactor_circ4500_giantpillar_009" parent="StructureModel" index="26"]
+visible = false
+
+[node name="hallreactor_circ4500_giantpillar_006" parent="StructureModel" index="27"]
+visible = false
+
+[node name="00littledoorimposter_001" parent="StructureModel/00OuterHall" index="0"]
+visible = false
+
+[node name="Circle_018" parent="StructureModel/00OuterHall" index="6"]
+visible = false
+
+[node name="Circle_019" parent="StructureModel/00OuterHall" index="7"]
+visible = false
+
+[node name="Circle_020" parent="StructureModel/00OuterHall" index="8"]
+visible = false
+
+[node name="Circle_021" parent="StructureModel/00OuterHall" index="9"]
+visible = false
+
+[node name="Circle_023" parent="StructureModel/00OuterHall" index="10"]
+visible = false
+
+[node name="FLOOR_reactor_120_platformentrance_004" parent="StructureModel/00OuterHall" index="12"]
+visible = false
+
+[node name="FLOOR_reactor_120_platformentrance_005" parent="StructureModel/00OuterHall" index="13"]
+visible = false
+
+[node name="FLOOR_reactor_120_platformentrance_006" parent="StructureModel/00OuterHall" index="14"]
+visible = false
+
+[node name="FLOOR_reactor_120_platformentrance_side_004" parent="StructureModel/00OuterHall" index="15"]
+visible = false
+
+[node name="FLOOR_reactor_120_platformentrance_side_005" parent="StructureModel/00OuterHall" index="16"]
+visible = false
+
+[node name="FLOOR_reactor_120_platformentrance_side_006" parent="StructureModel/00OuterHall" index="17"]
+visible = false
+
+[node name="FLOORhall_circ1125_Road_0Base_001" parent="StructureModel/00OuterHall" index="20"]
+visible = false
+
+[node name="FLOORhall_circ1125_Road_0Base_008" parent="StructureModel/00OuterHall" index="23"]
+visible = false
+
+[node name="FLOORhall_circ1125_Road_0Base_009" parent="StructureModel/00OuterHall" index="24"]
+visible = false
+
+[node name="FLOORhall_circ1125_Road_2Tjoint_002" parent="StructureModel/00OuterHall" index="25"]
+visible = false
+
+[node name="FLOORhall_circ1125_RoadInner_0Base_000" parent="StructureModel/00OuterHall" index="26"]
+visible = false
+
+[node name="FLOORhall_circ1125_RoadInner_0Base_013" parent="StructureModel/00OuterHall" index="27"]
+visible = false
+
+[node name="FLOORhall_circ1125_upperdeckfloor_0Base_000" parent="StructureModel/00OuterHall" index="28"]
+visible = false
+
+[node name="FLOORhall_circ1125_upperdeckfloor_0Base_008" parent="StructureModel/00OuterHall" index="30"]
+visible = false
+
+[node name="FLOORhall_circ1125_upperdeckfloor_0Base_009" parent="StructureModel/00OuterHall" index="31"]
+visible = false
+
+[node name="FLOORhall_circ1125_upperdeckfloor_1Door_004" parent="StructureModel/00OuterHall" index="32"]
+visible = false
+
+[node name="hall_circ1125_CeilingObservationDeckWindowCover_007" parent="StructureModel/00OuterHall" index="36"]
+visible = false
+
+[node name="hall_circ1125_column1_001" parent="StructureModel/00OuterHall" index="37"]
+visible = false
+
+[node name="hall_circ1125_column1_014" parent="StructureModel/00OuterHall" index="39"]
+visible = false
+
+[node name="hall_circ1125_column1_015" parent="StructureModel/00OuterHall" index="40"]
+visible = false
+
+[node name="hall_circ1125_column1_018" parent="StructureModel/00OuterHall" index="43"]
+visible = false
+
+[node name="hall_circ1125_fences_1Base_013" parent="StructureModel/00OuterHall" index="46"]
+visible = false
+
+[node name="hall_circ1125_fences_1Base_014" parent="StructureModel/00OuterHall" index="47"]
+visible = false
+
+[node name="hall_circ1125_fences_1Base_015" parent="StructureModel/00OuterHall" index="48"]
+visible = false
+
+[node name="hall_circ1125_fences_1Base_017" parent="StructureModel/00OuterHall" index="50"]
+visible = false
+
+[node name="hall_circ1125_genericwalls_006" parent="StructureModel/00OuterHall" index="51"]
+visible = false
+
+[node name="hall_circ1125_genericwalls_018" parent="StructureModel/00OuterHall" index="54"]
+visible = false
+
+[node name="hall_circ1125_genericwalls_019" parent="StructureModel/00OuterHall" index="55"]
+visible = false
+
+[node name="hall_circ1125_genericwalls_020" parent="StructureModel/00OuterHall" index="56"]
+visible = false
+
+[node name="hall_circ1125_genericwalls_ceilingrailing_013" parent="StructureModel/00OuterHall" index="58"]
+visible = false
+
+[node name="hall_circ1125_genericwalls_ceilingrailing_014" parent="StructureModel/00OuterHall" index="59"]
+visible = false
+
+[node name="hall_circ1125_genericwalls_ceilingrailing_015" parent="StructureModel/00OuterHall" index="60"]
+visible = false
+
+[node name="hall_circ1125_genericwalls_ceilingrailing_017" parent="StructureModel/00OuterHall" index="62"]
+visible = false
+
+[node name="hall_circ1125_genericwalls_upper_013" parent="StructureModel/00OuterHall" index="76"]
+visible = false
+
+[node name="hall_circ1125_genericwalls_upper_014" parent="StructureModel/00OuterHall" index="77"]
+visible = false
+
+[node name="hall_circ1125_genericwalls_upper_015" parent="StructureModel/00OuterHall" index="78"]
+visible = false
+
+[node name="hall_circ1125_genericwalls_upper_017" parent="StructureModel/00OuterHall" index="80"]
+visible = false
+
+[node name="hall_circ1125_LowerDeckWall_0Base_006" parent="StructureModel/00OuterHall" index="81"]
+visible = false
+
+[node name="hall_circ1125_LowerDeckWall_0Base_007" parent="StructureModel/00OuterHall" index="82"]
+visible = false
+
+[node name="hall_circ1125_LowerDeckWall_0BasePipes2_002" parent="StructureModel/00OuterHall" index="83"]
+visible = false
+
+[node name="hall_circ1125_LowerDeckWall_2FlatWithPanels_000" parent="StructureModel/00OuterHall" index="84"]
+visible = false
+
+[node name="hall_circ1125_LowerDeckWall_2FlatWithPanels_007" parent="StructureModel/00OuterHall" index="86"]
+visible = false
+
+[node name="hall_circ1125_upperdeckwall_0base_009" parent="StructureModel/00OuterHall" index="89"]
+visible = false
+
+[node name="hall_circ1125_upperdeckwall_0base_010" parent="StructureModel/00OuterHall" index="90"]
+visible = false
+
+[node name="hall_circ1125_upperdeckwall_0base_011" parent="StructureModel/00OuterHall" index="91"]
+visible = false
+
+[node name="hall_circ1125_upperdeckwall_4PipesInset_003" parent="StructureModel/00OuterHall" index="93"]
+visible = false
+
+[node name="hall_circ2250_BGwall_001" parent="StructureModel/00OuterHall" index="94"]
+visible = false
+
+[node name="hall_circ2250_BGwall_002" parent="StructureModel/00OuterHall" index="95"]
+visible = false
+
+[node name="hall_circ2250_BGwall_003" parent="StructureModel/00OuterHall" index="96"]
+visible = false
+
+[node name="hall_circ2250_BGwall_004" parent="StructureModel/00OuterHall" index="97"]
+visible = false
+
+[node name="hall_circ2250_BGwall_005" parent="StructureModel/00OuterHall" index="98"]
+visible = false
+
+[node name="hallreactor_circ4500_giantpillarDouble_001" parent="StructureModel/00OuterHall" index="101"]
+visible = false
+
+[node name="hallreactor_circ4500_giantpillarDouble_002" parent="StructureModel/00OuterHall" index="102"]
+visible = false
+
+[node name="hallreactor_circ4500_giantpillarDouble_004" parent="StructureModel/00OuterHall" index="104"]
+visible = false
+
+[node name="hallreactor_circ4500_giantpillarDouble_005" parent="StructureModel/00OuterHall" index="105"]
+visible = false
+
+[node name="hallreactor_circ4500_giantpillarDouble_006" parent="StructureModel/00OuterHall" index="106"]
+visible = false
+
+[node name="hallreactor_circ4500_giantpillarOuterDeco_002" parent="StructureModel/00OuterHall" index="108"]
+visible = false
+
+[node name="hallreactor_circ4500_giantpillarOuterDeco_003" parent="StructureModel/00OuterHall" index="109"]
+visible = false
+
+[node name="hallreactor_circ4500_giantpillarOuterDeco_004" parent="StructureModel/00OuterHall" index="110"]
+visible = false
+
+[node name="hallreactor_circ4500_giantpillarOuterDeco_005" parent="StructureModel/00OuterHall" index="111"]
+visible = false
+
+[node name="hallreactor_circ4500_giantpillarOuterDeco_007" parent="StructureModel/00OuterHall" index="113"]
+visible = false
+
+[node name="reactor_120_platformentrance_004" parent="StructureModel/00OuterHall" index="114"]
+visible = false
+
+[node name="reactor_120_platformentrance_005" parent="StructureModel/00OuterHall" index="115"]
+visible = false
+
+[node name="reactor_120_platformentrance_006" parent="StructureModel/00OuterHall" index="116"]
+visible = false
+
+[node name="reactor_120_platformentrance_side_004" parent="StructureModel/00OuterHall" index="117"]
+visible = false
+
+[node name="reactor_120_platformentrance_side_005" parent="StructureModel/00OuterHall" index="118"]
+visible = false
+
+[node name="reactor_120_platformentrance_side_006" parent="StructureModel/00OuterHall" index="119"]
+visible = false
+
+[node name="reactor_ReactorPillar_007" parent="StructureModel/00OuterHall" index="123"]
+visible = false
+
+[node name="hall_circ1125_CeilingObservationDeck_018" parent="StructureModel" index="32"]
+visible = false
+
+[node name="hall_circ1125_column1triplanar_022" parent="StructureModel" index="33"]
+visible = false
+
+[node name="FLOORhall_Road3_000" parent="StructureModel" index="34"]
+visible = false
+
+[node name="FLOORhall_Road3_006" parent="StructureModel" index="36"]
+visible = false
+
+[node name="FLOORhall_Road3_005" parent="StructureModel" index="37"]
+visible = false
+
+[node name="FLOORhall_circ1125_FloorLightsA_015" parent="StructureModel" index="39"]
+visible = false
+
+[node name="FLOORhall_circ1125_FloorLightsA_014" parent="StructureModel" index="40"]
+visible = false
+
+[node name="FLOORhall_circ1125_FloorLightsA_009" parent="StructureModel" index="42"]
+visible = false
+
+[node name="FLOORhall_circ1125_FloorLightsA_008" parent="StructureModel" index="43"]
+visible = false
+
+[node name="hall_circ1125_column1triplanar_017" parent="StructureModel" index="45"]
+visible = false
+
+[node name="hall_circ1125_column1triplanar_014" parent="StructureModel" index="48"]
+visible = false
+
+[node name="hall_circ1125_column1triplanar_013" parent="StructureModel" index="49"]
+visible = false
+
+[node name="hall_circ1125_CeilingObservationDeck_015" parent="StructureModel" index="52"]
+visible = false
+
+[node name="hall_circ1125_CeilingObservationDeck_014" parent="StructureModel" index="53"]
+visible = false
+
+[node name="hall_circ1125_CeilingObservationDeck_013" parent="StructureModel" index="54"]
+visible = false
+
 [node name="StairPillar4" parent="." instance=ExtResource("1")]
 transform = Transform3D(-1.09128, 0, -0.588822, 0, 1.24, 0, 0.588822, 0, -1.09128, 48.9491, 2.48, -26.4115)
 
@@ -110,6 +419,7 @@ shape = SubResource("1")
 
 [node name="StairPillar5" parent="." instance=ExtResource("1")]
 transform = Transform3D(0.35529, 0, 1.18801, 0, 1.24, 0, -1.18801, 0, 0.35529, 15.9365, 2.48, -53.288)
+visible = false
 
 [node name="ThreeBox" type="CollisionShape3D" parent="StairPillar5"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 12, 0)
@@ -117,6 +427,7 @@ shape = SubResource("1")
 
 [node name="StairPillar6" parent="." instance=ExtResource("1")]
 transform = Transform3D(0.35529, 0, 1.18801, 0, 1.24, 0, -1.18801, 0, 0.35529, -15.9365, 2.48, 53.288)
+visible = false
 
 [node name="ThreeBox" type="CollisionShape3D" parent="StairPillar6"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 12, 0)
@@ -197,98 +508,122 @@ shape = SubResource("4")
 
 [node name="PillarTop5" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-0.995055, -0.0993194, 1.61812e-08, 0, -1.62921e-07, -1, 0.0993194, -0.995055, 1.62115e-07, -8.14419, 26, -81.5945)
+visible = false
 shape = SubResource("2")
 
 [node name="PillarUpper5" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-0.995055, -0.0419742, -0.0900139, 0, 0.906308, -0.422618, 0.0993194, -0.420529, -0.901826, -5.56188, 17, -55.7231)
+visible = false
 shape = SubResource("2")
 
 [node name="PillarLower5" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-0.995055, 0.0206497, -0.097149, 0, 0.978148, 0.207912, 0.0993193, 0.206884, -0.973311, -5.04542, -10, -50.5488)
+visible = false
 shape = SubResource("3")
 
 [node name="PillarBase5" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-0.995055, 0, -0.0993193, 0, 1, 0, 0.0993193, 0, -0.995055, -4.96597, -25, -49.7528)
+visible = false
 shape = SubResource("4")
 
 [node name="PillarTop6" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-0.882947, -0.469471, 7.64866e-08, 0, -1.62921e-07, -1, 0.469471, -0.882947, 1.4385e-07, -38.4967, 26, -72.4017)
+visible = false
 shape = SubResource("2")
 
 [node name="PillarUpper6" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-0.882947, -0.198407, -0.425486, 0, 0.906308, -0.422618, 0.469471, -0.37315, -0.800222, -26.2904, 17, -49.445)
+visible = false
 shape = SubResource("2")
 
 [node name="PillarLower6" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-0.882947, 0.0976086, -0.459212, 0, 0.978148, 0.207912, 0.469471, 0.183575, -0.863653, -23.8491, -10, -44.8537)
+visible = false
 shape = SubResource("3")
 
 [node name="PillarBase6" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-0.882947, 0, -0.469471, 0, 1, 0, 0.469471, 0, -0.882947, -23.4736, -25, -44.1474)
+visible = false
 shape = SubResource("4")
 
 [node name="PillarTop7" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-0.63473, -0.772733, 1.25894e-07, 0, -1.62921e-07, -1, 0.772733, -0.63473, 1.03411e-07, -63.3641, 26, -52.0479)
+visible = false
 shape = SubResource("2")
 
 [node name="PillarUpper7" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-0.63473, -0.326571, -0.700334, 0, 0.906308, -0.422618, 0.772733, -0.268249, -0.575261, -43.2731, 17, -35.5449)
+visible = false
 shape = SubResource("2")
 
 [node name="PillarLower7" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-0.63473, 0.16066, -0.755847, 0, 0.978148, 0.207912, 0.772733, 0.131968, -0.62086, -39.2548, -10, -32.2443)
+visible = false
 shape = SubResource("3")
 
 [node name="PillarBase7" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-0.63473, 0, -0.772733, 0, 1, 0, 0.772733, 0, -0.63473, -38.6367, -25, -31.7365)
+visible = false
 shape = SubResource("4")
 
 [node name="PillarTop8" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-0.290702, -0.956813, 1.55885e-07, 0, -1.62921e-07, -1, 0.956813, -0.290702, 4.73614e-08, -78.4587, 26, -23.8376)
+visible = false
 shape = SubResource("2")
 
 [node name="PillarUpper8" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-0.290702, -0.404367, -0.867167, 0, 0.906308, -0.422618, 0.956813, -0.122856, -0.263466, -53.5815, 17, -16.2793)
+visible = false
 shape = SubResource("2")
 
 [node name="PillarLower8" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-0.290702, 0.198933, -0.935904, 0, 0.978148, 0.207912, 0.956813, 0.0604404, -0.28435, -48.6061, -10, -14.7677)
+visible = false
 shape = SubResource("3")
 
 [node name="PillarBase8" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-0.290702, 0, -0.956813, 0, 1, 0, 0.956813, 0, -0.290702, -47.8407, -25, -14.5351)
+visible = false
 shape = SubResource("4")
 
 [node name="PillarTop9" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(0.0958456, -0.995396, 1.62171e-07, 0, -1.62921e-07, -1, 0.995396, 0.0958456, -1.56152e-08, -81.6225, 26, 7.85934)
+visible = false
 shape = SubResource("2")
 
 [node name="PillarUpper9" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(0.0958457, -0.420673, -0.902135, 0, 0.906308, -0.422618, 0.995396, 0.0405061, 0.0868656, -55.7422, 17, 5.36735)
+visible = false
 shape = SubResource("2")
 
 [node name="PillarLower9" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(0.0958456, 0.206954, -0.973644, 0, 0.978148, 0.207912, 0.995396, -0.0199274, 0.0937511, -50.5661, -10, 4.86896)
+visible = false
 shape = SubResource("3")
 
 [node name="PillarBase9" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(0.0958456, 0, -0.995396, 0, 1, 0, 0.995396, 0, 0.0958456, -49.7698, -25, 4.79228)
+visible = false
 shape = SubResource("4")
 
 [node name="PillarTop10" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(0.469471, -0.882947, 1.4385e-07, 0, -1.62921e-07, -1, 0.882947, 0.469471, -7.64866e-08, -72.4017, 26, 38.4966)
+visible = false
 shape = SubResource("2")
 
 [node name="PillarUpper10" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(0.469471, -0.37315, -0.800222, 0, 0.906308, -0.422618, 0.882947, 0.198407, 0.425485, -49.445, 17, 26.2904)
+visible = false
 shape = SubResource("2")
 
 [node name="PillarLower10" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(0.469471, 0.183575, -0.863653, 0, 0.978148, 0.207912, 0.882947, -0.0976086, 0.459212, -44.8537, -10, 23.8491)
+visible = false
 shape = SubResource("3")
 
 [node name="PillarBase10" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(0.469471, 0, -0.882947, 0, 1, 0, 0.882947, 0, 0.469471, -44.1474, -25, 23.4736)
+visible = false
 shape = SubResource("4")
 
 [node name="PillarTop11" type="CollisionShape3D" parent="Pillars"]
@@ -301,10 +636,12 @@ shape = SubResource("2")
 
 [node name="PillarLower11" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(0.772733, 0.131968, -0.62086, 0, 0.978148, 0.207912, 0.63473, -0.16066, 0.755847, -32.2443, -10, 39.2548)
+visible = false
 shape = SubResource("3")
 
 [node name="PillarBase11" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(0.772733, 0, -0.63473, 0, 1, 0, 0.63473, 0, 0.772733, -31.7365, -25, 38.6367)
+visible = false
 shape = SubResource("4")
 
 [node name="OuterPillarA1" type="CollisionShape3D" parent="Pillars"]
@@ -501,22 +838,27 @@ shape = SubResource("10")
 
 [node name="OuterPillarA7" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(0.382683, 0, 0.923879, 0, 1, 0, -0.923879, 0, 0.382683, 29.6962, -15, -71.6931)
+visible = false
 shape = SubResource("5")
 
 [node name="OuterPillarB7" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(0.270598, -0.270598, 0.92388, 0.707107, 0.707107, 0, -0.653282, 0.653282, 0.382683, 30.7486, 4.5, -74.2338)
+visible = false
 shape = SubResource("6")
 
 [node name="OuterPillarC7" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(0.382683, 0, 0.92388, 0, 1, 0, -0.92388, 0, 0.382683, 35.8191, 5.5, -86.4752)
+visible = false
 shape = SubResource("7")
 
 [node name="OuterPillarD7" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(0.245984, 0.293152, 0.46194, -0.766044, 0.642788, 0, -0.593859, -0.707732, 0.191342, 35.2451, 1, -85.0894)
+visible = false
 shape = SubResource("6")
 
 [node name="OuterPillarE7" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(0.382683, 0, 0.92388, 0, 1, 0, -0.92388, 0, 0.382683, 36.4888, -3.5, -88.092)
+visible = false
 shape = SubResource("8")
 
 [node name="OuterPillarF7" type="CollisionShape3D" parent="Pillars"]
@@ -525,102 +867,127 @@ shape = SubResource("9")
 
 [node name="OuterPillarG7" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-1.38582, 0, 0.382683, 0, 1, 0, -0.574025, 0, -0.92388, 39.646, 2, -95.714)
+visible = false
 shape = SubResource("8")
 
 [node name="OuterPillarH7" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(0.205262, -0.205262, 0.956941, 0.707108, 0.707108, 0, -0.67666, 0.67666, 0.290284, 23.6872, 5.9, -78.0864)
+visible = false
 shape = SubResource("10")
 
 [node name="OuterPillarA8" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(0.19509, 0, 0.980785, 0, 1, 0, -0.980785, 0, 0.19509, 15.139, -15, -76.1089)
+visible = false
 shape = SubResource("5")
 
 [node name="OuterPillarB8" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(0.13795, -0.13795, 0.980785, 0.707107, 0.707107, 0, -0.69352, 0.69352, 0.19509, 15.6755, 4.5, -78.8061)
+visible = false
 shape = SubResource("6")
 
 [node name="OuterPillarC8" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(0.19509, 0, 0.980785, 0, 1, 0, -0.980785, 0, 0.19509, 18.2604, 5.5, -91.8015)
+visible = false
 shape = SubResource("7")
 
 [node name="OuterPillarD8" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(0.125402, 0.149448, 0.490393, -0.766044, 0.642788, 0, -0.630437, -0.751325, 0.097545, 17.9678, 1, -90.3303)
+visible = false
 shape = SubResource("6")
 
 [node name="OuterPillarE8" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(0.19509, 0, 0.980785, 0, 1, 0, -0.980785, 0, 0.19509, 18.6018, -3.5, -93.5178)
+visible = false
 shape = SubResource("8")
 
 [node name="OuterPillarF8" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(0.19509, 0, 0.980785, 0, 1, 0, -0.980785, 0, 0.19509, 19.1871, 8.7, -96.4602)
+visible = false
 shape = SubResource("9")
 
 [node name="OuterPillarG8" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-1.47118, 0, 0.19509, 0, 1, 0, -0.292635, 0, -0.980786, 20.2113, 2, -101.609)
+visible = false
 shape = SubResource("8")
 
 [node name="OuterPillarH8" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(0.0693083, -0.0693083, 0.995185, 0.707108, 0.707108, 0, -0.703703, 0.703703, 0.0980167, 7.99819, 5.9, -81.2071)
+visible = false
 shape = SubResource("10")
 
 [node name="OuterPillarA9" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -1.26426e-05, -15, -77.6)
+visible = false
 shape = SubResource("5")
 
 [node name="OuterPillarB9" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-1.15203e-07, 1.15203e-07, 1, 0.707107, 0.707107, 0, -0.707107, 0.707107, -1.62921e-07, -1.30906e-05, 4.5, -80.35)
+visible = false
 shape = SubResource("6")
 
 [node name="OuterPillarC9" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -1.52493e-05, 5.5, -93.6)
+visible = false
 shape = SubResource("7")
 
 [node name="OuterPillarD9" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-1.04724e-07, -1.24805e-07, 0.5, -0.766044, 0.642788, 0, -0.642788, -0.766044, -8.14605e-08, -1.5005e-05, 1, -92.1)
+visible = false
 shape = SubResource("6")
 
 [node name="OuterPillarE9" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -1.55344e-05, -3.5, -95.35)
+visible = false
 shape = SubResource("8")
 
 [node name="OuterPillarF9" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -1.60232e-05, 8.7, -98.35)
+visible = false
 shape = SubResource("9")
 
 [node name="OuterPillarG9" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-1.5, 0, -3.25842e-07, 0, 1, 0, 4.88763e-07, 0, -1, -1.68785e-05, 2, -103.6)
+visible = false
 shape = SubResource("8")
 
 [node name="OuterPillarH9" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-0.0693091, 0.0693091, 0.995185, 0.707108, 0.707108, 0, -0.703703, 0.703703, -0.0980178, -7.99822, 5.9, -81.2071)
+visible = false
 shape = SubResource("10")
 
 [node name="OuterPillarA10" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-0.195091, 0, 0.980785, 0, 1, 0, -0.980785, 0, -0.195091, -15.139, -15, -76.1089)
+visible = false
 shape = SubResource("5")
 
 [node name="OuterPillarB10" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-0.13795, 0.13795, 0.980785, 0.707107, 0.707107, 0, -0.69352, 0.69352, -0.195091, -15.6755, 4.5, -78.8061)
+visible = false
 shape = SubResource("6")
 
 [node name="OuterPillarC10" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-0.195091, 0, 0.980785, 0, 1, 0, -0.980785, 0, -0.195091, -18.2605, 5.5, -91.8015)
+visible = false
 shape = SubResource("7")
 
 [node name="OuterPillarD10" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-0.125402, -0.149448, 0.490393, -0.766044, 0.642788, 0, -0.630437, -0.751325, -0.0975455, -17.9678, 1, -90.3303)
+visible = false
 shape = SubResource("6")
 
 [node name="OuterPillarE10" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-0.195091, 0, 0.980785, 0, 1, 0, -0.980785, 0, -0.195091, -18.6019, -3.5, -93.5178)
+visible = false
 shape = SubResource("8")
 
 [node name="OuterPillarF10" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-0.195091, 0, 0.980785, 0, 1, 0, -0.980785, 0, -0.195091, -19.1871, 8.7, -96.4602)
+visible = false
 shape = SubResource("9")
 
 [node name="OuterPillarG10" type="CollisionShape3D" parent="Pillars"]
 transform = Transform3D(-1.47118, 0, -0.195091, 0, 1, 0, 0.292637, 0, -0.980785, -20.2114, 2, -101.609)
+visible = false
 shape = SubResource("8")
 
 [node name="OuterPillarA11" type="CollisionShape3D" parent="Pillars"]
@@ -1015,26 +1382,32 @@ shape = SubResource("12")
 
 [node name="StartHall33" type="CollisionShape3D" parent="MainFloor"]
 transform = Transform3D(0.34202, 0, 0.939693, 0, 1, 0, -0.939693, 0, 0.34202, 31.2777, -21.4, -85.9349)
+visible = false
 shape = SubResource("12")
 
 [node name="StartHall34" type="CollisionShape3D" parent="MainFloor"]
 transform = Transform3D(0.258819, 0, 0.965926, 0, 1, 0, -0.965926, 0, 0.258819, 23.669, -21.4, -88.3339)
+visible = false
 shape = SubResource("12")
 
 [node name="StartHall35" type="CollisionShape3D" parent="MainFloor"]
 transform = Transform3D(0.173648, 0, 0.984808, 0, 1, 0, -0.984808, 0, 0.173648, 15.8801, -21.4, -90.0607)
+visible = false
 shape = SubResource("12")
 
 [node name="StartHall36" type="CollisionShape3D" parent="MainFloor"]
 transform = Transform3D(0.0871556, 0, 0.996195, 0, 1, 0, -0.996195, 0, 0.0871556, 7.97038, -21.4, -91.102)
+visible = false
 shape = SubResource("12")
 
 [node name="StartHall37" type="CollisionShape3D" parent="MainFloor"]
 transform = Transform3D(-1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -1.48991e-05, -21.4, -91.45)
+visible = false
 shape = SubResource("12")
 
 [node name="StartHall38" type="CollisionShape3D" parent="MainFloor"]
 transform = Transform3D(-0.0871559, 0, 0.996195, 0, 1, 0, -0.996195, 0, -0.0871559, -7.97041, -21.4, -91.102)
+visible = false
 shape = SubResource("12")
 
 [node name="UpperFloor" type="StaticBody3D" parent="."]
@@ -1185,26 +1558,32 @@ shape = SubResource("12")
 
 [node name="StartHall33" type="CollisionShape3D" parent="UpperFloor"]
 transform = Transform3D(0.34202, 0, 0.939693, 0, 1, 0, -0.939693, 0, 0.34202, 37.5025, -16.2, -103.037)
+visible = false
 shape = SubResource("12")
 
 [node name="StartHall34" type="CollisionShape3D" parent="UpperFloor"]
 transform = Transform3D(0.258819, 0, 0.965926, 0, 1, 0, -0.965926, 0, 0.258819, 28.3795, -16.2, -105.914)
+visible = false
 shape = SubResource("12")
 
 [node name="StartHall35" type="CollisionShape3D" parent="UpperFloor"]
 transform = Transform3D(0.173648, 0, 0.984808, 0, 1, 0, -0.984808, 0, 0.173648, 19.0405, -16.2, -107.984)
+visible = false
 shape = SubResource("12")
 
 [node name="StartHall36" type="CollisionShape3D" parent="UpperFloor"]
 transform = Transform3D(0.0871556, 0, 0.996195, 0, 1, 0, -0.996195, 0, 0.0871556, 9.55661, -16.2, -109.233)
+visible = false
 shape = SubResource("12")
 
 [node name="StartHall37" type="CollisionShape3D" parent="UpperFloor"]
 transform = Transform3D(-1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -1.78643e-05, -16.2, -109.65)
+visible = false
 shape = SubResource("12")
 
 [node name="StartHall38" type="CollisionShape3D" parent="UpperFloor"]
 transform = Transform3D(-0.0871559, 0, 0.996195, 0, 1, 0, -0.996195, 0, -0.0871559, -9.55664, -16.2, -109.233)
+visible = false
 shape = SubResource("12")
 
 [node name="StartHall39" type="CollisionShape3D" parent="UpperFloor"]
@@ -1333,26 +1712,32 @@ shape = SubResource("12")
 
 [node name="StartHall71" type="CollisionShape3D" parent="UpperFloor"]
 transform = Transform3D(0.34202, 0, 0.939693, 0, 1, 0, -0.939693, 0, 0.34202, 36.9895, -18.2, -101.627)
+visible = false
 shape = SubResource("12")
 
 [node name="StartHall72" type="CollisionShape3D" parent="UpperFloor"]
 transform = Transform3D(0.258819, 0, 0.965926, 0, 1, 0, -0.965926, 0, 0.258819, 27.9913, -18.2, -104.465)
+visible = false
 shape = SubResource("12")
 
 [node name="StartHall73" type="CollisionShape3D" parent="UpperFloor"]
 transform = Transform3D(0.173648, 0, 0.984808, 0, 1, 0, -0.984808, 0, 0.173648, 18.78, -18.2, -106.507)
+visible = false
 shape = SubResource("12")
 
 [node name="StartHall74" type="CollisionShape3D" parent="UpperFloor"]
 transform = Transform3D(0.0871556, 0, 0.996195, 0, 1, 0, -0.996195, 0, 0.0871556, 9.42588, -18.2, -107.739)
+visible = false
 shape = SubResource("12")
 
 [node name="StartHall75" type="CollisionShape3D" parent="UpperFloor"]
 transform = Transform3D(-1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -1.76199e-05, -18.2, -108.15)
+visible = false
 shape = SubResource("12")
 
 [node name="StartHall76" type="CollisionShape3D" parent="UpperFloor"]
 transform = Transform3D(-0.0871559, 0, 0.996195, 0, 1, 0, -0.996195, 0, -0.0871559, -9.42591, -18.2, -107.739)
+visible = false
 shape = SubResource("12")
 
 [node name="OuterWalls" type="StaticBody3D" parent="."]
@@ -1491,26 +1876,32 @@ shape = SubResource("12")
 
 [node name="StartHall33" type="CollisionShape3D" parent="OuterWalls"]
 transform = Transform3D(0.34202, 0, 0.939693, 0, 1, 0, -0.939693, 0, 0.34202, 39.9821, 13.8, -109.85)
+visible = false
 shape = SubResource("12")
 
 [node name="StartHall34" type="CollisionShape3D" parent="OuterWalls"]
 transform = Transform3D(0.258819, 0, 0.965926, 0, 1, 0, -0.965926, 0, 0.258819, 30.2559, 13.8, -112.917)
+visible = false
 shape = SubResource("12")
 
 [node name="StartHall35" type="CollisionShape3D" parent="OuterWalls"]
 transform = Transform3D(0.173648, 0, 0.984808, 0, 1, 0, -0.984808, 0, 0.173648, 20.2995, 13.8, -115.124)
+visible = false
 shape = SubResource("12")
 
 [node name="StartHall36" type="CollisionShape3D" parent="OuterWalls"]
 transform = Transform3D(0.0871556, 0, 0.996195, 0, 1, 0, -0.996195, 0, 0.0871556, 10.1885, 13.8, -116.455)
+visible = false
 shape = SubResource("12")
 
 [node name="StartHall37" type="CollisionShape3D" parent="OuterWalls"]
 transform = Transform3D(-1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -1.90455e-05, 13.8, -116.9)
+visible = false
 shape = SubResource("12")
 
 [node name="StartHall38" type="CollisionShape3D" parent="OuterWalls"]
 transform = Transform3D(-0.0871559, 0, 0.996195, 0, 1, 0, -0.996195, 0, -0.0871559, -10.1885, 13.8, -116.455)
+visible = false
 shape = SubResource("12")
 
 [node name="StartHall39" type="CollisionShape3D" parent="OuterWalls"]
@@ -1719,30 +2110,37 @@ shape = SubResource("18")
 
 [node name="Railing46" type="CollisionShape3D" parent="PlayerOnly"]
 transform = Transform3D(-0.906308, 0, 0.422619, 0, 1, 0, -0.422619, 0, -0.906308, 33.4521, -5.7, -71.7383)
+visible = false
 shape = SubResource("18")
 
 [node name="Railing47" type="CollisionShape3D" parent="PlayerOnly"]
 transform = Transform3D(-0.939692, 0, 0.34202, 0, 1, 0, -0.34202, 0, -0.939692, 27.0724, -5.7, -74.3808)
+visible = false
 shape = SubResource("18")
 
 [node name="Railing48" type="CollisionShape3D" parent="PlayerOnly"]
 transform = Transform3D(-0.965926, 0, 0.258819, 0, 1, 0, -0.258819, 0, -0.965926, 20.4867, -5.7, -76.4573)
+visible = false
 shape = SubResource("18")
 
 [node name="Railing49" type="CollisionShape3D" parent="PlayerOnly"]
 transform = Transform3D(-0.984808, 0, 0.173648, 0, 1, 0, -0.173648, 0, -0.984808, 13.745, -5.7, -77.9519)
+visible = false
 shape = SubResource("18")
 
 [node name="Railing50" type="CollisionShape3D" parent="PlayerOnly"]
 transform = Transform3D(-0.996195, 0, 0.0871559, 0, 1, 0, -0.0871559, 0, -0.996195, 6.89876, -5.7, -78.8532)
+visible = false
 shape = SubResource("18")
 
 [node name="Railing51" type="CollisionShape3D" parent="PlayerOnly"]
 transform = Transform3D(-1, 0, 3.8743e-07, 0, 1, 0, -3.8743e-07, 0, -1, 2.28882e-05, -5.7, -79.1544)
+visible = false
 shape = SubResource("18")
 
 [node name="Railing52" type="CollisionShape3D" parent="PlayerOnly"]
 transform = Transform3D(-0.996195, 0, -0.0871556, 0, 1, 0, 0.0871556, 0, -0.996195, -6.89876, -5.7, -78.8532)
+visible = false
 shape = SubResource("18")
 
 [node name="Railing53" type="CollisionShape3D" parent="PlayerOnly"]
@@ -1791,18 +2189,22 @@ shape = SubResource("22")
 
 [node name="OuterPillarPlayer7" type="CollisionShape3D" parent="PlayerOnly"]
 transform = Transform3D(0.382683, 0, 0.923879, 0, 1, 0, -0.923879, 0, 0.382683, 35.4748, 2, -85.6436)
+visible = false
 shape = SubResource("22")
 
 [node name="OuterPillarPlayer8" type="CollisionShape3D" parent="PlayerOnly"]
 transform = Transform3D(0.19509, 0, 0.980785, 0, 1, 0, -0.980785, 0, 0.19509, 18.0849, 2, -90.9188)
+visible = false
 shape = SubResource("22")
 
 [node name="OuterPillarPlayer9" type="CollisionShape3D" parent="PlayerOnly"]
 transform = Transform3D(-1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -1.51027e-05, 2, -92.7)
+visible = false
 shape = SubResource("22")
 
 [node name="OuterPillarPlayer10" type="CollisionShape3D" parent="PlayerOnly"]
 transform = Transform3D(-0.195091, 0, 0.980785, 0, 1, 0, -0.980785, 0, -0.195091, -18.0849, 2, -90.9188)
+visible = false
 shape = SubResource("22")
 
 [node name="OuterPillarPlayer11" type="CollisionShape3D" parent="PlayerOnly"]
@@ -1925,4 +2327,7 @@ transform = Transform3D(1, 0, -5.96046e-08, 0, 1, 0, 5.96046e-08, 0, 1, 3, -1.5,
 shape = SubResource("31")
 
 [node name="OccluderInstance3D" type="OccluderInstance3D" parent="."]
+visible = false
 occluder = ExtResource("3_2aako")
+
+[editable path="StructureModel"]
