@@ -540,7 +540,7 @@ light_energy = 1.0
 light_volumetric_fog_energy = 10000.0
 light_specular = 0.0
 light_bake_mode = 1
-omni_range = 15.0
+omni_range = 25.0
 
 [node name="Point_008_Orientation" parent="Point_008" index="0"]
 light_color = Color(1, 1, 1, 1)
@@ -548,7 +548,7 @@ light_energy = 1.0
 light_volumetric_fog_energy = 10000.0
 light_specular = 0.0
 light_bake_mode = 1
-omni_range = 15.0
+omni_range = 25.0
 
 [node name="Point_006_Orientation" parent="Point_006" index="0"]
 light_color = Color(1, 1, 1, 1)
@@ -556,7 +556,7 @@ light_energy = 1.0
 light_volumetric_fog_energy = 10000.0
 light_specular = 0.0
 light_bake_mode = 1
-omni_range = 15.0
+omni_range = 25.0
 
 [node name="Point_004_Orientation" parent="Point_004" index="0"]
 light_color = Color(1, 1, 1, 1)
@@ -564,7 +564,7 @@ light_energy = 1.0
 light_volumetric_fog_energy = 10000.0
 light_specular = 0.0
 light_bake_mode = 1
-omni_range = 15.0
+omni_range = 25.0
 
 [node name="Point_002_Orientation" parent="Point_002" index="0"]
 light_color = Color(1, 1, 1, 1)
@@ -572,7 +572,7 @@ light_energy = 1.0
 light_volumetric_fog_energy = 10000.0
 light_specular = 0.0
 light_bake_mode = 1
-omni_range = 15.0
+omni_range = 25.0
 
 [node name="Point_Orientation" parent="Point" index="0"]
 light_color = Color(1, 1, 1, 1)
@@ -580,5 +580,4 @@ light_energy = 1.0
 light_volumetric_fog_energy = 10000.0
 light_specular = 0.0
 light_bake_mode = 1
-omni_range = 15.0
-omni_attenuation = 2.0
+omni_range = 25.0

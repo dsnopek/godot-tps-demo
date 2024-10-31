@@ -83,6 +83,7 @@ data = ExtResource("5")
 
 [node name="LightmapGI" parent="." instance=ExtResource("6_65ixi")]
 transform = Transform3D(0.338334, 0, 0.941027, 0, 1, 0, -0.941027, 0, 0.338334, 47.12, -4.7742, 18.8181)
+interior = true
 
 [node name="ReflectionProbes" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0316315, 0.30191, -0.240242)
@@ -175,6 +176,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.779, -3.99063, 81.5517)
 
 [node name="LightmapProbe7" type="LightmapProbe" parent="LightmapProbes"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.303036, -3.99063, 88.031)
+
+[node name="LightmapProbe33" type="LightmapProbe" parent="LightmapProbes"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.5219, -5.63136, 86.3816)
 
 [node name="LightmapProbe8" type="LightmapProbe" parent="LightmapProbes"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38.3425, -3.99063, 75.6498)
