@@ -179,6 +179,9 @@ visible = false
 [node name="FLOOR_reactor_120_platformentrance_side_006" parent="StructureModel/00OuterHall" index="17"]
 visible = false
 
+[node name="FLOORhall_circ1125_FloorLightsB_004" parent="StructureModel/00OuterHall" index="19"]
+visible = false
+
 [node name="FLOORhall_circ1125_Road_0Base_001" parent="StructureModel/00OuterHall" index="20"]
 visible = false
 
